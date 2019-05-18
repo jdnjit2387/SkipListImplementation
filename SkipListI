@@ -1,0 +1,11 @@
+public interface SkipListI {
+
+	public SkipListNode findElement(Double k);
+	
+	public Boolean insertElement(Double k);
+	
+	public Boolean removeElement(Double k);
+	
+	public SkipListNode closestKeyAfter(Double k);
+	
+	}
